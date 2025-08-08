@@ -1,0 +1,157 @@
+.container {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    grid-template-rows: repeat(3, auto));
+    grid-template-areas: "first first first first" 100% "second second second second" 100% "third third third third" 100%;
+    gap: 80px;
+    justify-content: start;
+    align-content: start;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.item {
+
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 200%;
+    place-items: stretch stretch;
+
+}
+
+.item1 {
+
+
+   grid-area: first;
+   
+    
+}
+
+.item2 {
+
+
+   grid-area: first;
+
+    
+}
+
+.item3 {
+
+  grid-area: first;
+
+    
+}
+
+.item4 {
+
+
+   grid-area: first;
+   
+
+    
+}
+
+.item5 {
+
+
+   grid-area: second;
+
+    
+}
+
+.item6 {
+
+
+   grid-area: second;
+
+    
+}
+
+.item7 {
+
+
+   grid-area: second;
+
+    
+}
+
+.item8 {
+
+
+   grid-area: second;
+
+    
+}
+
+.item9 {
+
+
+   grid-area: third;
+
+    
+}
+
+.item10 {
+
+
+   grid-area: third;
+
+    
+}
+
+.item11 {
+
+
+   grid-area: third;
+
+    
+}
+
+.item12 {
+
+
+   grid-area: third;
+
+    
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto, 1fr;
+    grid-template-areas: "header header" "nav main";
+    box-sizing: border-box;
+    margin-left: -70px;
+    max-width: 100%;
+}
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+
+main {
+    grid-area: main;
+    padding: 0px;
+}
+
+.mn {
+
+    margin-left: -60px;
+}
+
+
+
+   
+
+    
